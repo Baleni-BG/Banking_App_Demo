@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="984.0" styleClass="profile_frame" stylesheets="@../styles/profile.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bonga.balenibank.user.controllers.Profile">
+   <children>
+      <AnchorPane layoutX="36.0" layoutY="31.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="900.0" styleClass="user_info_container" stylesheets="@../styles/profile.css" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <ImageView fitHeight="130.0" fitWidth="173.0" layoutX="34.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="15.885787963867188" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="16.0" />
+            <VBox layoutX="219.0" layoutY="10.0" prefHeight="130.0" prefWidth="173.0" styleClass="user_info_container_vbox" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="532.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bonga Gibson Baleni" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@BGBaleni01" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="010424000000" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="0614419224" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="18 Feb 2024" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="36.0" layoutY="197.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="900.0" styleClass="settings_container" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="30.0">
+         <children>
+            <AnchorPane layoutX="45.0" layoutY="25.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="limits_container" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="25.0">
+               <children>
+                  <VBox layoutX="57.0" layoutY="48.0" prefHeight="400.0" prefWidth="400.0" styleClass="limit_container_vbox" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                     <children>
+                        <Label text="Transfer Limit" />
+                        <Slider minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" />
+                        <HBox prefHeight="30.0" prefWidth="380.0" styleClass="limit_container_vbox_hbox" stylesheets="@../styles/profile.css">
+                           <children>
+                              <Label minHeight="-Infinity" prefHeight="30.0" text="R" />
+                              <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" styleClass="money_field" stylesheets="@../styles/profile.css" />
+                              <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="submit_button" stylesheets="@../styles/profile.css" text="Submit" />
+                           </children>
+                        </HBox>
+                        <Line endX="280.0" startX="-100.0" />
+                        <Label text="Payment Limit" />
+                        <Slider minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" />
+                        <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="380.0" styleClass="limit_container_vbox_hbox" stylesheets="@../styles/profile.css">
+                           <children>
+                              <Label minHeight="-Infinity" prefHeight="30.0" text="R" />
+                              <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" styleClass="money_field" stylesheets="@../styles/profile.css" />
+                              <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="submit_button" text="Submit" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="495.0" layoutY="25.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="cards_container" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="25.0">
+               <children>
+                  <AnchorPane layoutX="25.0" layoutY="33.0" prefHeight="150.0" prefWidth="350.0" styleClass="cheque_acc" stylesheets="@../styles/profile.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="20.0" />
+                  <AnchorPane layoutX="25.0" layoutY="200.0" prefHeight="150.0" prefWidth="350.0" styleClass="savings_acc" stylesheets="@../styles/profile.css" AnchorPane.bottomAnchor="25.0" />
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

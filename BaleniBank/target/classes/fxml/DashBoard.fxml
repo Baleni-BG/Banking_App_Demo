@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashboard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="984.0" styleClass="dashboard_frame" stylesheets="@../styles/DashBoard.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bonga.balenibank.user.controllers.DashBoard">
+   <children>
+      <VBox layoutX="291.0" layoutY="124.0" prefHeight="677.0" prefWidth="984.0" styleClass="vbox_items" stylesheets="@../styles/DashBoard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" styleClass="dashboard_search" stylesheets="@../styles/DashBoard.css">
+               <children>
+                  <TextField fx:id="search_bar" minWidth="200.0" styleClass="dashboard_search" stylesheets="@../styles/DashBoard.css" />
+                  <Button fx:id="search_button" minWidth="200.0" mnemonicParsing="false" stylesheets="@../styles/DashBoard.css" text="Search">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="SEARCH" />
+                     </graphic></Button>
+               </children>
+            </HBox>
+            <Line endX="904.0" />
+            <HBox prefHeight="204.0" prefWidth="984.0" styleClass="hbox_below_line" stylesheets="@../styles/DashBoard.css">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="400.0" styleClass="left_frame" stylesheets="@../styles/DashBoard.css">
+                     <children>
+                        <Text layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="left_frame_text" text="Savings Account" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="7.0">
+                           <font>
+                              <Font name="Chandas" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#faf7f7" layoutX="83.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="**************" wrappingWidth="177.52947998046875">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#f2ecec" layoutX="261.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="247">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <AnchorPane layoutX="346.0" layoutY="55.0" prefHeight="146.0" prefWidth="30.0">
+                           <children>
+                              <VBox layoutX="-25.0" layoutY="-29.0" prefHeight="170.0" prefWidth="70.0" styleClass="logobar" stylesheets="@../styles/DashBoard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <FontAwesomeIconView fill="#fff8f8" glyphName="BANK" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                        <Text fill="#fff7f7" layoutX="14.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R" wrappingWidth="14.857142448425293">
+                           <font>
+                              <Font name="Caladea Bold Italic" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fffcfc" layoutX="29.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="569.0" wrappingWidth="98.01629638671875" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="400.0" styleClass="right_frame" stylesheets="@../styles/DashBoard.css">
+                     <children>
+                        <Text layoutX="14.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="right_frame_text" text="Cheque Account" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="7.0">
+                           <font>
+                              <Font name="Chandas" size="16.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#faf0f0" layoutX="82.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="**************" wrappingWidth="177.52947998046875">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#faf7f7" layoutX="260.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="114">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <VBox layoutX="340.0" layoutY="56.0" prefHeight="146.0" prefWidth="30.0" styleClass="logobar" stylesheets="@../styles/DashBoard.css">
+                           <children>
+                              <FontAwesomeIconView glyphName="BANK" />
+                           </children>
+                        </VBox>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R" wrappingWidth="14.857142448425293">
+                           <font>
+                              <Font name="Caladea Bold Italic" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fffcfc" layoutX="33.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="790.65" wrappingWidth="98.01629638671875" />
+                     </children>
+                  </AnchorPane>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </HBox>
+            <SplitPane prefHeight="342.0" prefWidth="984.0" styleClass="split_pane" stylesheets="@../styles/DashBoard.css">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <VBox layoutX="53.0" layoutY="14.0" prefHeight="340.0" prefWidth="493.0" stylesheets="@../styles/DashBoard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

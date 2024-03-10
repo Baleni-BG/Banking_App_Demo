@@ -1,0 +1,60 @@
+.login_top {
+
+   -fx-alignment :center;
+   
+   -fx-background-color: white;
+
+}
+
+.login_top FontAwesomeIconView{
+
+  
+
+   -fx-fill:linear-gradient(to right , #2E3192,#1BFFFF);
+}
+
+.login_bottom
+{
+
+   -fx-alignment: top-center;
+   -fx-spacing: 30;
+   
+   -fx-background-color:white;
+
+}
+
+.login_bottom TextField
+{
+
+   -fx-border:none;
+
+}
+
+.login_bottom Button
+{
+
+ -fx-background-radius:20;  
+    -fx-background-color:linear-gradient(to right , #2E3192,#1BFFFF);
+    
+  
+    
+    -fx-text-fill:white;
+    
+    -fx-font-weight:bold;
+
+}
+
+
+
+.login_frame{
+
+   -fx-effect:dropshadow(gaussian,black, 10, 0.5 , 3,3);
+   -fx-background-radius:0 30 0 0;
+  
+}
+
+.main_frame{
+
+   -fx-background-color:linear-gradient(to right , #2E3192,#1BFFFF);
+
+}

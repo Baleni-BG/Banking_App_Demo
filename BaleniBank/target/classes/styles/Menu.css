@@ -1,0 +1,82 @@
+.menu_top {
+
+-fx-alignment:center;
+-fx-spacing:10;
+-fx-background-color:white;
+
+}
+
+.menu_top FontAwesomeIconView
+{
+
+   -fx-size:300;
+
+}
+
+.menu_middle{
+ -fx-alignment:center;
+ -fx-spacing:20;
+ -fx-background-color:white;
+ 
+
+}
+.menu_middle Button{
+
+   
+   -fx-background-color:linear-gradient(to bottom right, #764BA2,#667EEA);
+   
+   -fx-effect:dropshadow(gaussian , rgb(211,211,211), 10 ,0.5 ,3,3);
+   
+   -fx-text-fill:white;
+
+}
+
+.menu_middle_button:hover{
+
+    -fx-effect:dropshadow(gaussian , black, 10 ,0.5 ,3,3);
+
+}
+
+.menu_middle FontAwesomeIconView{
+
+   -fx-fill:white;
+
+}
+
+.menu_bottom {
+
+   -fx-background-color:black;
+   
+   -fx-fill:white;
+   
+   
+   
+   -fx-alignment:center;
+   -fx-spacing:20;
+
+}
+
+
+.menu_bottom Button{
+
+-fx-background-color:linear-gradient(to bottom right, #764BA2,#667EEA);
+
+}
+
+.menu_bottom:pressed Button{
+
+   -fx-background-color:white;
+}
+
+
+.menu_frame{
+
+
+   -fx-background-radius: 0px 20px 20px 0px;
+   
+   -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,3);
+
+}
+
+
+

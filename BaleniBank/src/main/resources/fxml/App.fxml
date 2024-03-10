@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="app" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="app_frame" stylesheets="@../styles/App.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.bonga.balenibank.user.controllers.App"
+>
+<left>
+   <fx:include fx:id="menu" source="Menu.fxml" />
+</left>
+   <padding>
+      <Insets left="5.0" top="12.0" />
+   </padding>
+   
+   <center>
+   <fx:include fx:id="dashboard" source="DashBoard.fxml" />
+   </center>  
+</BorderPane>

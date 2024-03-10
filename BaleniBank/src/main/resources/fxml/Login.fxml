@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="main_frame" stylesheets="@../styles/Login.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.bonga.balenibank.user.controllers.Login">
+   <children>
+      <AnchorPane layoutX="318.0" layoutY="217.0" prefHeight="700.0" prefWidth="500.0" styleClass="login_frame" stylesheets="@../styles/Login.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox layoutX="194.0" prefHeight="200.0" prefWidth="500.0" styleClass="login_top" stylesheets="@../styles/Login.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <FontAwesomeIconView glyphName="USER" size="10em" />
+               </children>
+            </VBox>
+            <VBox layoutX="112.0" layoutY="244.0" prefHeight="300.0" prefWidth="500.0" styleClass="login_bottom" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <TextField fx:id="user_name_field" alignment="CENTER" maxWidth="400.0" prefHeight="30.0" prefWidth="400.0" promptText="User name">
+                     <font>
+                        <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="user_password_field" alignment="CENTER" maxWidth="400.0" prefHeight="30.0" prefWidth="400.0" promptText="Password">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="13.0" />
+                     </font>
+                  </PasswordField>
+                  <Button fx:id="login_button" maxWidth="400.0" mnemonicParsing="false" prefHeight="30.0" text="Login" textAlignment="CENTER">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="LOCK" selectionFill="#f5f3f3" />
+                     </graphic>
+                  </Button>
+                  <Hyperlink fx:id="create_account_hyper_link" text="Create Account" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+.main{
+   -fx-spacing:45;
+   -fx-background-color:linear-gradient(to right , #c33764,#1D2671);
+   
+  
+   
+   -fx-alignment:center;
+
+}
+
+.main FontAwesomeIconView
+{
+
+   -fx-fill:white;
+
+}
+
+.main Button
+{
+
+
+   -fx-background-color:linear-gradient(to right , #2E3192,#1BFFFF);
+
+   -fx-background-radius: 20;
+   
+   -fx-text-fill:white;
+   
+   -fx-text-family:bold;
+   
+   -fx-effect: dropshadow(gaussian , white , 10, 0.1 , 5
+   , 5 );
+
+}
+
+.main Text{
+
+-fx-fill: white;
+-fx-family:cursive;
+
+}

@@ -1,0 +1,159 @@
+.user_info_container
+{
+
+   -fx-background-color:white;
+   -fx-background-radius:20;
+   -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+
+}
+
+.user_info_container ImageView
+{
+
+-fx-image: url("image.png");
+-fx-background-radius:20;
+-fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+-fx-cursor:crosshair;
+
+
+}
+
+.user_info_container ImageView:hover
+{
+
+   -fx-scale-x:1.1;
+   -fx-scale-y:1.2;
+
+}
+
+.settings_container
+{
+
+   -fx-background-color:transparent;
+
+}
+
+.limits_container
+{
+
+   -fx-background-color:white;
+   -fx-background-radius:20;
+   -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+
+}
+
+.cards_container
+{
+
+-fx-background-color:white;
+-fx-background-radius:20;
+-fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+
+}
+
+.limit_container_vbox
+{
+
+   -fx-alignment:left;
+   -fx-spacing:10;
+
+}
+
+.limit_container_vbox_hbox
+{
+
+   -fx-alignment:center;
+}
+
+.user_info_container_vbox
+{
+
+   -fx-alignment:left;
+   -fx-spacing:10;
+
+}
+
+
+
+.cheque_acc
+{
+   
+    -fx-background-color:linear-gradient(to right , #2E3192,#1BFFFF);
+    -fx-background-radius:20 20 0 0;
+    -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+
+}
+
+
+.cheque_acc:hover
+{
+
+   -fx-background-color:linear-gradient(to right , #D8B5FF,#1EAE98);
+   
+   -fx-background-radius:0 0 20 20 ;
+
+}
+
+.savings_acc
+{
+
+    -fx-background-color:linear-gradient(to right , #2E3192,#1BFFFF);
+    -fx-background-radius:20 20 0 0;
+    -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+
+}
+
+.savings_acc:hover
+{
+   -fx-background-color:linear-gradient(to right , #D8B5FF,#1EAE98);
+   
+   -fx-background-radius:0 0 20 20 ;
+}
+
+.profile_frame
+{
+
+   -fx-background-color:#C0C0C0C0;
+   -fx-background-radius:0 35 35 0;
+
+}
+.submit_button
+{
+
+   -fx-background-color:#013220;
+   -fx-effect:dropshadow(gaussian , #AAAAAA, 10 ,0.5 ,0,0);
+   -fx-text-fill:white;
+}
+
+.submit_button:pressed
+{
+   -fx-background-color:black;
+}
+
+.money_field
+{
+   -fx-border-color:green;
+   -fx-text-fill:#013220;
+
+}
+
+.slider .thumb
+{
+
+   -fx-color:#013220;
+   
+
+}
+
+.slider:hover
+{
+   -fx-cursor:hand;
+
+}
+
+.slider .track
+{
+   
+      -fx-background-color:grey;
+}
+

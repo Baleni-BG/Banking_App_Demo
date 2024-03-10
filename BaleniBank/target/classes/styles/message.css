@@ -1,0 +1,31 @@
+.mess_field
+{
+
+   -fx-background-color:black;
+   -fx-text-alignment:justify;
+     
+}
+
+.play_button
+{
+   
+   -fx-background-color:lightgrey;
+
+}
+
+.bottom
+{
+
+   -fx-background-color:white;
+   -fx-alignment:top-center;
+   -fx-vspacing:5;
+
+}
+.bottom progress-bar
+{
+
+   -fx-indeterminate-bar-length:100;
+}
+
+
+

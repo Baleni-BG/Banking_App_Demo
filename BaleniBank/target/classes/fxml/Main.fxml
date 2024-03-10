@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@../styles/Main.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bonga.balenibank.user.controllers.Main">
+   <children>
+      <VBox layoutX="392.0" layoutY="230.0" prefHeight="800.0" prefWidth="800.0" styleClass="main" stylesheets="@../styles/Main.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <FontAwesomeIconView glyphName="BANK" size="200" />
+            <Text fill="#f8f0f0" strokeType="OUTSIDE" strokeWidth="0.0" text="Baleni Bank">
+               <font>
+                  <Font name="System Bold" size="65.0" />
+               </font>
+            </Text>
+            <Button fx:id="login_button" mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" stylesheets="@../styles/Main.css" text="Continue To Login" />
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" text="Create Account" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
